@@ -1,0 +1,16 @@
+[project]
+name = "comfyui-clipboard-nodes"
+version = "0.1.0"
+description = "ComfyUI custom nodes that wait on the OS clipboard for new image/text, in-graph replacement for the ComfyUI-Clipboard-Workflow-Automator script."
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow",
+    "numpy",
+    "pywin32; sys_platform == 'win32'",
+    "PyGObject; sys_platform == 'linux'",
+]
+
+[tool.comfy]
+PublisherId = "kastelan"
+DisplayName = "ComfyUI Clipboard Nodes"
+Icon = ""
