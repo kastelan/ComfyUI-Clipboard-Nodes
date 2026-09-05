@@ -1,4 +1,8 @@
 Pillow
-numpy
+
+# Windows clipboard backend
 pywin32; sys_platform == "win32"
+
+# Linux clipboard backend (GTK/GDK bindings)
 PyGObject; sys_platform == "linux"
+pycairo; sys_platform == "linux"
