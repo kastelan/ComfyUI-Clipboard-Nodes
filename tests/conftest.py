@@ -11,7 +11,7 @@ import sys
 import types
 
 import pytest
-
+--ignore __init__.py
 # nodes.py lives at the repo root and does `from .clipboard_backend import
 # ...` (relative import), which only works if it's loaded as part of a
 # package. ComfyUI achieves this by importing the whole custom_nodes folder
