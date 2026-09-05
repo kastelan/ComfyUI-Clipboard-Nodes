@@ -23,4 +23,4 @@ jobs:
         run: pip install --break-system-packages pytest numpy pillow
 
       - name: Run tests
-  run: xvfb-run -a python3 -m pytest tests/ -v --ignore=__init__.py
+        run: xvfb-run -a python3 -m pytest tests/ -v --ignore=__init__.py
