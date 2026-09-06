@@ -62,4 +62,4 @@ prompts concurrently on the same ComfyUI instance in the meantime.
 
 ## License
 
-MIT
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
