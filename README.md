@@ -5,6 +5,12 @@ Instead of a separate script polling the clipboard and pushing prompts to the
 API, these are **nodes that live inside the workflow itself**: when executed,
 they block/poll until new clipboard content appears, then output it.
 
+
+
+https://github.com/user-attachments/assets/be21861a-7b98-4db6-8f98-630a86a57cab
+
+
+
 ## Nodes
 
 - **Clipboard Image Input (wait)** → `IMAGE`, `MASK`
