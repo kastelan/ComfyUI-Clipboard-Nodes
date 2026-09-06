@@ -22,8 +22,8 @@ Both take:
 
 ```
 cd ComfyUI/custom_nodes
-git clone [comfyui-clipboard-nodes](https://github.com/kastelan/Clipboard-Automator.git)
-cd comfyui-clipboard-nodes
+git clone https://github.com/kastelan/Clipboard-Automator.git
+cd Clipboard-Automator
 pip install -r requirements.txt   # or: pip install .
 ```
 
