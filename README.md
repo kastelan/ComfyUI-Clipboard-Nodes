@@ -19,8 +19,7 @@ Both take:
 | `ignore_current` | On the node's first run, ignore whatever's already on the clipboard (mirrors the old script's "startup skip") |
 
 ## Install
-
-```
+```bash
 cd ComfyUI/custom_nodes
 git clone https://github.com/kastelan/Clipboard-Automator.git
 cd Clipboard-Automator
