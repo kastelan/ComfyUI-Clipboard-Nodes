@@ -1,4 +1,4 @@
-# ComfyUI Clipboard Nodes
+# Clipboard-Automator
 
 In-graph replacement for [ComfyUI-Clipboard-Workflow-Automator](https://github.com/kastelan/ComfyUI-Clipboard-Workflow-Automator).
 Instead of a separate script polling the clipboard and pushing prompts to the
