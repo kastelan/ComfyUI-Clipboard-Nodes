@@ -1,14 +1,23 @@
 [project]
-name = "comfyui-clipboard-nodes"
+name = "clipboard-automator"
 version = "0.1.0"
 description = "ComfyUI custom nodes that wait on the OS clipboard for new image/text, in-graph replacement for the ComfyUI-Clipboard-Workflow-Automator script."
 requires-python = ">=3.10"
+license = { file = "LICENSE" }
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+]
 dependencies = [
     "Pillow",
     "numpy",
     "pywin32; sys_platform == 'win32'",
     "PyGObject; sys_platform == 'linux'",
 ]
+
+[project.urls]
+Repository = "https://github.com/kastelan/Clipboard-Automator"
+"Bug Tracker" = "https://github.com/kastelan/Clipboard-Automator/issues"
 
 [tool.comfy]
 PublisherId = "kastelan"
